@@ -33,6 +33,10 @@ body h1 {
   text-align: center;
 }
 
+body h2{
+  text-align: center;
+}
+
 .blog {
   display: grid;
   grid-auto-flow: column;
@@ -40,7 +44,6 @@ body h1 {
   margin: 2em;
 }
 .blog a {
-  color: #007bff;
   text-decoration: none;
   background-color: transparent;
   text-align: center;
@@ -57,11 +60,22 @@ div p {
   margin: 1em 2em 1em 2em;
 }
 
+div > audio{
+  margin: 0.5em auto 0.5em auto;
+  display: flex;
+  align-content: space-between;
+}
+
 div > img {
-  height: auto;
   width: 30%;
   height: auto;
   margin: 2em auto 2em auto;
   display: flex;
   align-content: space-between;
+}
+
+.blog > a{
+  background-color: #d9dfdf;
+  border-radius: 0.5em;
+  
 }
