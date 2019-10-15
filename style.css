@@ -1,0 +1,67 @@
+#profile {
+  background-color: #d9dfdf;
+}
+
+#lunes {
+  background-color: #d9dfdf;
+}
+#martes {
+  background-color: #d9dfdf;
+}
+#miercoles {
+  background-color: #d9dfdf;
+}
+#jueves {
+  background-color: #d9dfdf;
+}
+#viernes {
+  background-color: #d9dfdf;
+}
+
+.hidden {
+  display: none;
+}
+
+header img{
+width: 15%;
+height: auto;
+display: block;
+margin: auto;
+}
+
+body h1 {
+  text-align: center;
+}
+
+.blog {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  margin: 2em;
+}
+.blog a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  text-align: center;
+}
+
+div {
+  display: grid;
+  grid-auto-flow: row;
+  align-content: space-around;
+}
+
+div p {
+  text-align: justify;
+  margin: 1em 2em 1em 2em;
+}
+
+div > img {
+  height: auto;
+  width: 30%;
+  height: auto;
+  margin: 2em auto 2em auto;
+  display: flex;
+  align-content: space-between;
+}
